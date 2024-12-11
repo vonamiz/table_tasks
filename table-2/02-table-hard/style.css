@@ -1,0 +1,40 @@
+table {
+  background-color: #f6f6f6;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.animal {
+background-color: #000000;
+}
+
+td, th {
+  border: 1px solid #999;
+text-align: left;
+}
+
+td {
+  padding: 20px 20px;
+}
+
+th {
+  background: rgb(42, 165, 136);
+  color: white;
+  padding: 6px 12px;
+  color: aliceblue;
+  font-size: medium;
+}
+
+.primary {
+  background-color: #000000;
+}
+
+tfoot > tr  {
+  background: black;
+  color: white;
+}
+
+tbody > tr:hover {
+  background-color: #b98ee6;
+}
